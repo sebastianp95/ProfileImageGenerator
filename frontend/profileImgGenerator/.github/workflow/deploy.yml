@@ -3,7 +3,7 @@ name: Deploy Frontend to GitHub Pages
 on:
   push:
     paths:
-      - "frontend/**" # Trigger on changes in the frontend directory
+      - "frontend/profileImgGenerator" # Trigger on changes in the frontend directory
     branches:
       - master # Trigger only on pushes to the master branch
 
